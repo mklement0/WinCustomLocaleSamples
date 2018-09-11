@@ -5,12 +5,12 @@
 
 Terminology note: _locale_ is the term used by unmanaged code (Windows API), _culture_ is the equivalent term for managed code (.NET)
 
-The `en-US.*` files relate to a _replacement_ custom locale for the predefined (standard) `en-US` locale.
-The `en-ZZ.*` files relate to a (fictitious) _supplemental_ custom locale.
+* The `en-US.*` files relate to a _replacement_ custom locale for the predefined (standard) `en-US` locale.
+* The `en-ZZ.*` files relate to a (fictitious) _supplemental_ custom locale, derived from the neutral `en` locale.
 
 Both custom locales modify the negative number sign and the number decimal separator.
 
-Once installed, you can inspect the custom locales as follows from PowerShell:
+Once installed, you can inspect and use the custom locales as follows from PowerShell:
 
 ```powershell
 # List the custom cultures' properties.
